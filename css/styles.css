@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    height: 40px;  /* Adjust size */
+    width: 50px;   /* Set equal width and height for a perfect circle */
+    border-radius: 60%; /* Makes it round */
+    object-fit: cover; /* Ensures the image fills the circle properly */
+    margin-right: 10px; 
+    width: 40px;
+    height: 40px;/* Space between logo and text */
+}
+
+
+body {
+    background-color:#11584b;
+}
+.navigationbar{
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right,#39a56d, #35a8bc);
+}
+.containe{
+    color: white;
+}
+
+
+.language-btn {
+    width: 250px;
+    height: 60px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #007bff; /* Default Blue */
+    color: white; /* Text color */
+    border: 2px solid #007bff;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.language-btn:hover {
+    background-color: #0056b3; /* Darker Blue on Hover */
+    border-color: #0056b3;
+    color: whitesmoke;
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Telugu Button - Custom Color */
+.language-btn:nth-child(1) {
+    background-image: linear-gradient(to right,#35a8bc,#39a56d );
+    border-color: #28a745;
+    color: whitesmoke;
+}
+.language-btn:nth-child(1):hover {
+    background-color: #1e7e34; /* Darker Green */
+    border-color: #1e7e34;
+}
+
+/* Hindi Button - Custom Color */
+.language-btn:nth-child(2) {
+    background-color: #ffc107; /* Yellow */
+    border-color: #ffc107;
+    color: black;
+}
+.language-btn:nth-child(2):hover {
+    background-color: #e0a800; /* Darker Yellow */
+    border-color: #e0a800;
+}
+
+/* English Button - Custom Color */
+.language-btn:nth-child(3) {
+    background-color: #dc3545; /* Red */
+    border-color: #dc3545;
+}
+.language-btn:nth-child(3):hover {
+    background-color: #bd2130; /* Darker Red */
+    border-color: #bd2130;
+}
+
+
+
+
+.footer {
+    background-image: linear-gradient(to right,#39a56d, #35a8bc);
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
